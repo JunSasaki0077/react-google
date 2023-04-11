@@ -1379,6 +1379,14 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@extend-chrome/storage@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@extend-chrome/storage/-/storage-1.5.0.tgz#7823964481af4d93c9dc08b025728175a02824b3"
+  integrity sha512-JhoBZ1xIzu0/mauNR/MadUsfNsWP1lTmWR8RlVJvWStUifzNZdAxI2i8NFCkd4RfjyTn4FcDETik3SDlAfGQRA==
+  dependencies:
+    chrome-promise "^3.0.5"
+    rxjs "^6.5.5 || ^7.1.0"
+
 "@floating-ui/core@^1.2.6":
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.2.6.tgz#d21ace437cc919cdd8f1640302fa8851e65e75c0"
@@ -2985,6 +2993,11 @@ chokidar@^3.5.3:
     readdirp "~3.6.0"
   optionalDependencies:
     fsevents "~2.3.2"
+
+chrome-promise@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/chrome-promise/-/chrome-promise-3.0.5.tgz#47132edf44d9cc12a768d72f6064a6b083d77b00"
+  integrity sha512-ekIevrJOO5S6ezSzl5TdaLhlQkovY5nVaNSgA2XyhuNtlGniUvTbf7rzH95alh1OajArwoP2xVGYUJbpVLmZYA==
 
 ci-info@^3.2.0:
   version "3.3.1"
@@ -6605,6 +6618,13 @@ run-parallel@^1.1.9:
   integrity sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==
   dependencies:
     queue-microtask "^1.2.2"
+
+"rxjs@^6.5.5 || ^7.1.0":
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.8.0.tgz#90a938862a82888ff4c7359811a595e14e1e09a4"
+  integrity sha512-F2+gxDshqmIub1KdvZkaEfGDwLNpPvk9Fs6LD/MyQxNgMds/WH9OdDDXOmxUZpME+iSK3rQCctkL0DYyytUqMg==
+  dependencies:
+    tslib "^2.1.0"
 
 rxjs@^7.5.5:
   version "7.5.5"
