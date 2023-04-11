@@ -1,12 +1,22 @@
 import React, { ReactElement } from 'react';
+import { Container, Select } from '@mantine/core';
 
 const Popup = (): ReactElement => {
-  document.body.style.width = '15rem';
-  document.body.style.height = '15rem';
+  document.body.style.width = '20rem';
+  document.body.style.height = '20rem';
   return (
-    <div className="flex h-screen items-center justify-center">
-      <h1>Popup</h1>
-    </div>
+    <Container p="xl">
+      <Select
+        label="どの言語に翻訳しますか？"
+        defaultValue="EN"
+        data={[
+          { value: 'EN', label: '英語' },
+          { value: 'KO', label: '韓国語' },
+          { value: 'ZH', label: '英語' },
+          { value: 'JA', label: '日本語' },
+        ]}
+      ></Select>
+    </Container>
   );
 };
 
